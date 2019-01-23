@@ -80,7 +80,7 @@ ________________________________________
 
 The goal is to test the feedReader code by using jasmine framework with jQuery and DOM elements using few test cases. We need to write test cases for modules. Udacity given a sample test case in feedreader.js (RSS Feed). 
 
-## Running this app in your PC.
+## Running this app in PC.
 
 1. Cloned this repository with *git clone* command by using the url which was given in project rubric.
 
