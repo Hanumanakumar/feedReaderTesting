@@ -124,7 +124,7 @@ The goal is to test the feedReader code by using jasmine framework with jQuery a
 6. Wrote a test case that checking the entries not be 0 after loading.
 
 7. After loading the content the old data is different from newly loaded content by using two seperate variables (first and second).
-    + The * loadFedd(0, function()) * function loads the initial entries for detection.
-    + The * loadFeed(1, function()) * function loads the new entries for detection.
+    + The *loadFedd(0, function())* function loads the initial entries for detection.
+    + The *loadFeed(1, function())* function loads the new entries for detection.
 
 8. Ckecked accebility by using lighthouse tool. And changed background color for color contrast.
