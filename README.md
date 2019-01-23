@@ -80,7 +80,7 @@ ________________________________________
 
 The goal is to test the feedReader code by using jasmine framework with jQuery and DOM elements using few test cases. We need to write test cases for modules. Udacity given a sample test case in feedreader.js (RSS Feed). 
 
-##Running this app in your PC.
+## Running this app in your PC.
 
 1. Cloned this repository with *git clone* command by using the url which was given in project rubric.
 
@@ -106,7 +106,7 @@ The goal is to test the feedReader code by using jasmine framework with jQuery a
 5. The most importent file, for testing, the modules are implemented in the file name called feedreader.js that file located in the folder named as *spec* and this folder located in the folder named *jasmine*
 
 
-## I did the following steps to run the application.  
+## I did the following steps to complete this application.  
 
 1. Observed the file structure. And I found that there was a new folder named **Jasmine**. And opened that folder in that I observed spec folder with **feedReader.js** file.
 
