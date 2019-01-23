@@ -30,10 +30,8 @@ $(function() {
     // Writing test case that all the url fields are defined and those are not empty.
     it('URLs are defined and that the URLs are not empty', function() {
       allFeeds.map((item) => {
-        // test case for url to be defined
-        expect(item.url).toBeDefined();
-        // test case for url not be empty
-        expect(item.url).not.toBe(0);
+        // test case for url to be defined && url not be empty
+        expect(item.url).toBeTruthy();
       })
     })
 
@@ -41,10 +39,8 @@ $(function() {
     // Writing test case that all the url fields are defined and those are not empty.
     it('Names are defined and that the Names are not empty', function() {
       allFeeds.map((item) => {
-        // test case for name to be defined
-        expect(item.name).toBeDefined();
-        // test case for name not be empty
-        expect(item.name).not.toBe(0);
+        // test case for name to be defined &&  name not be empty
+        expect(item.name).toBeTruthy();
       })
     })
   });
@@ -62,10 +58,10 @@ $(function() {
     // test case for checking menu visibility and disability
     it('menu visibility & disability', function() {
       // for first click menu not to hide
-      $('.menu-icon-link').trigger('click');
+      $('.menu-icon-link').click();
       expect($('body').hasClass('menu-hidden')).toBe(false);
       // for second click menu to hide
-      $('.menu-icon-link').trigger('click');
+      $('.menu-icon-link').click();
       expect($('body').hasClass('menu-hidden')).toBe(true);
     });
 
@@ -79,7 +75,7 @@ $(function() {
     });
     it('after loaded', function() {
       // Here the condition
-      expect($('.entry').length).toBeGreaterThan(0);
+      expect($('.feed .entry').length).toBeGreaterThan(0);
     });
   });
 
